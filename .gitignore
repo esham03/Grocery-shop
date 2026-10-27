@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+backend/venv/
+venv/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases
+backend/db.sqlite3
+*.sqlite3
+
+# Static & Build Artifacts
+frontend/dist/
+frontend/dist-ssr/
+backend/staticfiles/
+backend/media/
+*.tsbuildinfo
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
